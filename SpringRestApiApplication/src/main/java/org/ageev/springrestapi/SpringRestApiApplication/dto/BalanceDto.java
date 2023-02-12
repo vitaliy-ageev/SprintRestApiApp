@@ -13,11 +13,11 @@ public class BalanceDto {
         this.balance = balance;
     }
     
-    public LocalDate getDate() {return date;}
+    public LocalDate getDate() { return date; }
     
     public void setDate(LocalDate date) { this.date = date; }
     
-    public double getBalance() {return balance;}
+    public double getBalance() { return balance; }
     
     public void setBalance(double balance) { this.balance = balance; }
 }
